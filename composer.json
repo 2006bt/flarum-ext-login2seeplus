@@ -1,5 +1,5 @@
 {
-    "name": "jslirola/flarum-ext-login2seeplus",
+    "name": "2006bt/flarum-ext-login2seeplus",
     "description": "Make posts hidden for visitors.",
     "type": "flarum-extension",
     "keywords": ["discussion"],
@@ -15,7 +15,7 @@
         "forum": "https://discuss.flarum.org/d/24193-login-2-see-plus"
     },
     "require": {
-        "flarum/core": "^0.1.0-beta.16"
+        "flarum/core": "^1.0"
     },
     "extra": {
         "flarum-extension": {
