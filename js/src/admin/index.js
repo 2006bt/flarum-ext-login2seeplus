@@ -1,5 +1,4 @@
-import { extend } from 'flarum/common/extend';
-import app from 'flarum/common/app';
+import app from 'flarum/app';
 
 app.initializers.add('jslirola-login2seeplus', () => {
     app.extensionData.for('jslirola-login2seeplus')
