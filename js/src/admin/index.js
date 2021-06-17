@@ -12,17 +12,17 @@ app.initializers.add('jslirola-login2seeplus', () => {
       .registerSetting(() => <legend class="login2seeplus-hide">{app.translator.trans('jslirola-login2seeplus.admin.hide')}</legend>)
       .registerSetting({
         setting: 'jslirola.login2seeplus.link',
-        type: 'switch',
+        type: 'boolean',
         label: app.translator.trans('jslirola-login2seeplus.admin.link')
       })
       .registerSetting({
         setting: 'jslirola.login2seeplus.image',
-        type: 'switch',
+        type: 'boolean',
         label: app.translator.trans('jslirola-login2seeplus.admin.image')
       })
       .registerSetting({
         setting: 'jslirola.login2seeplus.code',
-        type: 'switch',
+        type: 'boolean',
         label: app.translator.trans('jslirola-login2seeplus.admin.code')
       });
 });
