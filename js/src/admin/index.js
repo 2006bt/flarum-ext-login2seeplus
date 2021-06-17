@@ -24,4 +24,5 @@ app.initializers.add('jslirola-login2seeplus', () => {
         type: 'boolean',
         label: app.translator.trans('jslirola-login2seeplus.admin.code')
       });
+    console.log("EXTENSION NAME is working!");
 });
